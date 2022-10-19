@@ -1,0 +1,15 @@
+[package]
+name = "city_pop"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "city_pop"
+
+[dependencies]
+csv = "1"
+docopt = "1"
+rustc-serialize = "0"
+serde = "1"
